@@ -8,6 +8,9 @@
 
 Thanks for checking out this front-end coding challenge.
 
+## Live Deployment
+This site was built using Github Pages => [QR code component](https://jankee92pl.github.io/QR-Code-Component-Hub/)
+
 
 
 
@@ -24,7 +27,6 @@ There is also a `style-guide.md` file containing the information you'll need, su
 ![sass](https://user-images.githubusercontent.com/65852150/154480429-978bdf22-64fe-44b0-bfd3-4b250ba49773.png)
 
 ![image](https://user-images.githubusercontent.com/65852150/154479789-58f2fdbb-af82-4780-9108-6558c0db6eb5.png)
-
 
 
 ## Got feedback for us?

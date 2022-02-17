@@ -1,11 +1,55 @@
-.container
-  display: flex
-  width: 100%
-  
-  .footer
-  font-size: 11px
-  text-align: center
-  a
-    color: hsl(228, 45%, 44%)
-    background-color: green
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
+$fontColor: #252D3F
+$mutedColor: #445375
+$bg-color: #D5E1EF
+$bg-color-radial: radial-gradient(ellipse at center, $bg-color 0%, #BAC5D0 100%)
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+body
+  background-color: $bg-color
+  background: $bg-color-radial
+  font-family: 'Roboto', sans-serif
+  .wrapper
+    margin: 80px auto 0
+    text-align: center
+    .shadow
+      box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, .2)
+    .card
+      background-color: white
+      border-radius: 2em
+      display: inline-block
+      .qr-code
+        width: 100%
+        object-fit: cover
+        padding: 1em
+        border-radius: 2em
+        overflow: hidden
+      .qr-description
+        height: 12em
+        color: $fontColor
+
+      .qr-title
+        font-size: 3em
+        font-weight: 700
+      .qr-details
+        color: $mutedColor
+        margin-top: 1em
+        font-weight: 400
+      .github
+        .bx
+          padding: 0.25em
+          font-size: 3em
+        &:visited
+          color: black
+
+.footer
+  font-size: 1em
+  text-align: center
+  padding: 1.25em
+  a
+    text-decoration: none
+    &:visited
+      color: $mutedColor

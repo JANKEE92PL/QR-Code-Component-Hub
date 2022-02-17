@@ -1,14 +1,78 @@
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  font-size: 11px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #D5E1EF;
+  background: radial-gradient(ellipse at center, #D5E1EF 0%, #BAC5D0 100%);
+  font-family: 'Roboto', sans-serif;
+}
+
+body .wrapper {
+  margin: 80px auto 0;
   text-align: center;
 }
 
-.container a {
-  color: #3e52a3;
-  background-color: green;
+body .wrapper .shadow {
+  -webkit-box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.2);
+}
+
+body .wrapper .card {
+  background-color: white;
+  border-radius: 2em;
+  display: inline-block;
+}
+
+body .wrapper .card .qr-code {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1em;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+body .wrapper .card .qr-description {
+  height: 12em;
+  color: #252D3F;
+}
+
+body .wrapper .card .qr-title {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+body .wrapper .card .qr-details {
+  color: #445375;
+  margin-top: 1em;
+  font-weight: 400;
+}
+
+body .wrapper .card .github .bx {
+  padding: 0.25em;
+  font-size: 3em;
+}
+
+body .wrapper .card .github:visited {
+  color: black;
+}
+
+.footer {
+  font-size: 1em;
+  text-align: center;
+  padding: 1.25em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:visited {
+  color: #445375;
 }
 /*# sourceMappingURL=styles.css.map */

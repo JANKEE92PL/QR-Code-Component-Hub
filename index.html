@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles.css">
+
+
   <title>Frontend Mentor | QR code component</title>
 
 </head>
-<body>
 
-  <header></header>
-  <section>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, deserunt et maxime sed, velit tenetur commodi id quam, dolores doloremque tempora neque quaerat culpa sequi. Ut adipisci impedit voluptatem expedita.
+<body>
+  <section class="wrapper">
+
+    <figure class="card shadow">
+      <img class="qr-code" src="images/image-qr-code.png" alt="qr code" title="QR code">
+      <figcaption class="qr-description" title="qr code description">
+        <article class="qr-title">Improve your Skills</article>
+        <article class="qr-details">Scan the QR code to visit my Github Repo</br> and check my latest works and enjoy
+          the Gallery
+        </article>
+        <a href="https://github.com/JANKEE92PL" target="blank" class="github">
+          <i class='bx bxl-github bx-spin'></i>
+        </a>
+      </figcaption>
+    </figure>
+
   </section>
+
   <footer class="footer">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/JANKEE92PL" target="blank">JANKEE92PL</a>.
   </footer>
 </body>
+
 </html>
